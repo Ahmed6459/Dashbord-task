@@ -1,0 +1,16 @@
+.right-card .download-btn {
+width: 259px;
+height: 40px;
+background: #1EC1C3;
+border-radius: 4px;
+margin: 0.4rem;
+}
+
+.transfer-btn{
+    color: #1EC1C3;
+    width: 135px;
+height: 48px;
+display: block;
+margin-left: auto;
+background: #323662;
+border-radius: 4px;}

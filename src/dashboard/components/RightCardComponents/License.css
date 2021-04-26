@@ -1,0 +1,23 @@
+.licen{
+    color: #fff;
+
+}
+
+.licen .num {
+    font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+margin-bottom: 1rem;
+}
+.licen .acrivated-btn{
+    width: 215px;
+height: 48px;
+background: #01A9F4;
+color: #fff  !important
+}
+.deactivate-btn{
+    width: 135px;
+height: 48px;
+background: #323662;
+border-radius: 4px;
+}

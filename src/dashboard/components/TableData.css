@@ -1,0 +1,51 @@
+table {
+  color: #fff;
+  overflow-y: scroll;
+  height: 494px;
+  display: block;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    border: 1rem;
+  }
+  ::-webkit-scrollbar-track {
+    background:#2b2f55;
+    border-radius: 5rem;
+    cursor: grab;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    opacity: 0.5;
+    border-radius: 5rem;
+  }
+thead {
+  background-color: #202342;
+}
+th,
+td {
+  border-bottom: 1px solid #363955;
+  padding: 1rem 1.2rem;
+}
+
+tbody tr:hover {
+  background: #2b2f55;
+  cursor: pointer;
+}
+
+tbody tr td {
+  font-size: 1rem;
+  text-align: center;
+}
+
+tbody tr td .success {
+  color: #63f4f7;
+  background: #63f4f76e;
+  padding: 0.4rem;
+}
+
+tbody tr td .fail {
+  color: #fe7448;
+  background: #fe744885;
+  padding: 0.5rem;
+}

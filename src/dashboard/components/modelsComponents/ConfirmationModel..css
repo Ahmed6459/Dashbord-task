@@ -1,0 +1,43 @@
+.model-confirmation{
+    background: #2D325A !important;
+    border-radius: 12px !important;
+    color: #fff;
+    border-radius: 12px;
+    width: 431px;
+    height: 350px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.model-confirmation .icon{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 1px;
+    border-radius: 50%;
+    background-color: rgb(99 244 247 / 0.2);
+    color: #63F4F7;
+    font-size: 2rem;
+    line-height: 0.4rem;
+}
+
+.model-transfair-footer{
+    display: flex;
+    background-color:#252a4b7a;
+    padding: 0.9rem;
+    justify-content: flex-end;
+    height: 80px;
+}
+
+.model-confirmation p{
+    font-size: 14px;
+    padding: 2rem;
+}
+
+.model-confirmation a{
+    color: #63F4F7;
+}
+
+
+
+
