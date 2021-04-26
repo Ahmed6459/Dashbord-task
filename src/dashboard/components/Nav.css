@@ -1,36 +1,66 @@
-#main-nav .alert{
-    position: absolute;
-width: 51px;
-height: 51px;
-left: 1085px;
-top: 28px;
-cursor: pointer;
-}
-#main-nav .cst-data{
-    position: absolute;
-width: 227px;
-height: 48px;
-left: 1157px;
-top: 30px;
-cursor: pointer;
+.content {
+	overflow: hidden;
+	padding: 10px;
+	width: 35%;
 }
 
-#main-nav .cst-data img {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 0px;
-    top: 0px;
+.content .notification {
+	color: #6f7291;
+	border: 1px solid #6f7291;
+	padding: 10px;
+	border-radius: 10px;
+	position: relative;
+	width: 15%;
+	float: left;
+	margin-top: 5px;
+	text-align: center;
 }
-#main-nav li{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+.content .notification span {
+	display: block;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fe7448;
+	border-radius: 100%;
+	background-color: #fe7448;
 }
-#main-nav h3{font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    /* identical to box height */  
-    color: #FFFFFF;
-    }
+
+.content .about {
+	width: 85%;
+	float: left;
+	overflow: hidden;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+.content .about .image {
+	width: 20%;
+	float: left;
+	margin-right: 4px;
+}
+
+.content .about .details {
+	width: 78%;
+	float: left;
+	color: #fff;
+	position: relative;
+}
+
+.content .about .details h2 {
+	font-size: 15px;
+	margin-bottom: 1px;
+}
+
+.content .about .details p {
+	color: #a6a7b3;
+	margin-top: 0;
+}
+
+.content .about .details i {
+	position: absolute;
+	top: 10px;
+	right: 2px;
+}

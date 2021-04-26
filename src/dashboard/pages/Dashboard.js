@@ -7,7 +7,7 @@ import "./Dashboard.css"
 const Dashboard = (props)=> {
     return (
         <div id="dashboard">
-            {/* <Nav/> */}
+           <Nav/>
             <BodyOfDashboard info = {props.info}/>
         </div>
     )

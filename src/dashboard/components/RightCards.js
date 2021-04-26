@@ -20,14 +20,14 @@ const RightCards = () => {
         </div>
         <div className="row mb-2">
           <Card minWidth="26rem" minHeight="97px">
-            <div class="row d-flex align-items-center">
-              <div class="col-7">
+            <div className="row d-flex align-items-center">
+              <div className="col-7">
                 <FaDiscord style={{ color: "#01A9F4", margin: "0.5rem" }} />
                 <h3 className="d-inline">Discord ID</h3>
                 <br />
                 <span>antony#2142</span>
               </div>
-              <div class="col">
+              <div className="col">
                 <button
                   className="deactivate-btn"
                   style={{ color: "#EC4165", background: "#323662" }}
@@ -40,7 +40,7 @@ const RightCards = () => {
         </div>
         <div className="row mb-2">
           <Card minWidth="26rem" minHeight="97px">
-            <div class="d-flex">
+            <div className="d-flex">
               <BiTransfer
                 style={{
                   color: "#000",
@@ -53,8 +53,8 @@ const RightCards = () => {
               />
               <span>Transfer</span>
             </div>
-            <div class="row d-flex align-items-center">
-              <div class="col">
+            <div className="row d-flex align-items-center">
+              <div className="col">
                 <span className="text-muted">Current Email</span>
                 <h6>anthony2142@emaill.com</h6>
               </div>
@@ -72,8 +72,8 @@ const RightCards = () => {
         </div>
         <div className="row mb-2">
           <Card minWidth="26rem" minHeight="172px">
-            <div class="row d-flex align-items-center">
-              <div class="col-auto">
+            <div className="row d-flex align-items-center">
+              <div className="col-auto">
                 <GoDesktopDownload
                   style={{
                     color: "#000",
@@ -87,7 +87,7 @@ const RightCards = () => {
                 />
                 <h6>Desktop App</h6>
               </div>
-              <div class="col-8">
+              <div className="col-8">
                 <button
                   className="download-btn"
                   style={{ color: "#fff", background: "#1EC1C3" }}

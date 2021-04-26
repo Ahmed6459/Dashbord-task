@@ -22,9 +22,9 @@ import "./TableData.css"
   <tbody>
     {props.info.lengh === 0 ? 
       <h2>No data to show</h2>:
-      props.info.map(item=>{
+      props.info.map((item,i)=>{
         return(
-          <tr>
+          <tr key={i+"k"}>
               <td>{item.date}</td>
               <td>{item.product}</td>
               <td>{item.size})</td>

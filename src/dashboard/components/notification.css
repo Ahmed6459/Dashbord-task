@@ -1,0 +1,12 @@
+.notification-card{
+    position: absolute;
+    left: 50rem;
+    z-index: 100;
+    top: 6rem;
+    width: 350px;
+    background: #2C3159;
+}
+
+.list-group-item{
+    background: #2C3159 ;
+}
